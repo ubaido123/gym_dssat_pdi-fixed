@@ -1,0 +1,6 @@
+{
+  "profit_potential": 707.62,
+  "seed": 123456,
+  "episodes_run": 2000,
+  "note": "Plateaued by ep 1100, confirmed stable through ep 2000"
+}

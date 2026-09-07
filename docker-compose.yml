@@ -1,0 +1,13 @@
+services:
+  dssat-rl:
+    build: .
+    container_name: dssat_reinforce_project
+    volumes:
+      # Bind-mount so training_log.csv / daily_log.csv / checkpoints/
+      # land directly on the host — no more docker cp round-trips.
+      - ./checkpoints:/app/checkpoints
+      - ./logs:/app/logs
+      - .:/app          # live-edit .py files without rebuilding
+    tty: true
+    stdin_open: true
+    command: ["sleep", "infinity"]

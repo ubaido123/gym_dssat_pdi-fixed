@@ -1,0 +1,3 @@
+agent,crop,n_episodes,mean_return,mean_water_mm,mean_nitrogen_kgha,mean_yield_kgha,mean_profit_usd_ha,std_profit_usd_ha
+Actor-Critic,maize,100,10.061264,724.84,44.3,6949.5380000000005,1258.1802,215.4291973682943
+REINFORCE,maize,100,-419.592351,3184.6,0.0,5964.6630000000005,-419.5926,172.6177164943308
